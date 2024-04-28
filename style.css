@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.continar{
+  display: flex;
+  padding-top:20px;
+  justify-content: center;
+
+}
+.body{
+  background-color: #eae1e1;
+}
+.Title{
+  text-align: center;
+  font-family: sans-serif;
+  padding-top:10px;
+  margin: 10px;
+}
+.paragraph{
+  margin-bottom:0;
+  line-height: 1.5;
+  text-align: center;
+  font-size:0.9rem;
+  font-family: sans-serif;
+}
+.Box{
+  background-color:white;
+  border-radius:12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:200px;
+  height:300px;
+  margin: 0px 20px;
+
+}
+.Name{
+  color: black;
+  text-align: center;
+  margin:5px 0px 8px 0px;
+  
+}
+
+.JOb{
+  text-align: center;
+  color: rgb(118, 117, 117);
+
+}
+
+.Picture{
+  margin-top:50px;
+  width:10em;
+  height:11rem;
+  padding:auto;
+
+}
