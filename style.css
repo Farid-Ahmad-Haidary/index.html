@@ -14,7 +14,53 @@
 }
 .body{
   background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* navbar styling */
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.navbar h2{
+  color: white;
+  text-decoration: none;
+  padding: 16px 20px;
+  display: block;
+}
+
+.navbar span{
+color: rgb(36, 183, 100);
+font-size: 3rem;
+font-style: handwriting;
+
+}
+
+
+.nav_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto;
+  list-style: none;
+align-items: center;
+font-size: 1.4rem;
+
+}
+
+.nav_links li:hover{
+  color: gold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
 .Title{
   text-align: center;
   font-family: sans-serif;
